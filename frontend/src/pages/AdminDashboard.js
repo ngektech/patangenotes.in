@@ -133,17 +133,17 @@ export default function AdminDashboard() {
         await axios.put(`${API_URL}/api/admin/posts/${editingPost.id}`, payload, {
           headers: { Authorization: `Bearer ${getToken()}` }
         });
-        toast.success('Post updated successfully');
+        toast.success('Post updated successfully.');
       } else {
         await axios.post(`${API_URL}/api/admin/posts`, payload, {
           headers: { Authorization: `Bearer ${getToken()}` }
         });
-        toast.success('Post created successfully');
+        toast.success('Post created successfully.');
       }
       closeEditor();
       fetchData();
     } catch (error) {
-      toast.error('Failed to save post');
+      toast.error('Failed to save post.');
       console.error(error);
     } finally {
       setSaving(false);
@@ -157,10 +157,10 @@ export default function AdminDashboard() {
       await axios.delete(`${API_URL}/api/admin/posts/${postId}`, {
         headers: { Authorization: `Bearer ${getToken()}` }
       });
-      toast.success('Post deleted successfully');
+      toast.success('Post deleted successfully.');
       fetchData();
     } catch (error) {
-      toast.error('Failed to delete post');
+      toast.error('Failed to delete post.');
     }
   };
 
