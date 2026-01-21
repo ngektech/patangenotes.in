@@ -17,7 +17,7 @@ export const Footer = () => {
     setLoading(true);
     try {
       await axios.post(`${API_URL}/api/newsletter/subscribe`, { email });
-      toast.success('Successfully subscribed to newsletter');
+      toast.success('Successfully subscribed to newsletter.');
       setEmail('');
     } catch (error) {
       toast.error('Failed to subscribe. Please try again.');
@@ -143,7 +143,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} PatangeNotes. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm flex items-center gap-2">
-            Made with <Heart className="w-4 h-4 text-red-500" /> for public welfare
+            Made with <Heart className="w-4 h-4 text-red-500" /> for public welfare.
           </p>
         </div>
       </div>
