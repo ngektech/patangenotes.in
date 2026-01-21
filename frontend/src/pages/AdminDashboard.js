@@ -76,7 +76,7 @@ export default function AdminDashboard() {
   const handleLogout = () => {
     logout();
     navigate('/');
-    toast.success('Logged out successfully');
+    toast.success('Logged out successfully.');
   };
 
   const openEditor = (post = null) => {

@@ -33,9 +33,9 @@ export default function BlogPostPage() {
     const url = window.location.href;
     try {
       await navigator.clipboard.writeText(url);
-      toast.success('Link copied to clipboard');
+      toast.success('Link copied to clipboard.');
     } catch {
-      toast.error('Failed to copy link');
+      toast.error('Failed to copy link.');
     }
   };
 

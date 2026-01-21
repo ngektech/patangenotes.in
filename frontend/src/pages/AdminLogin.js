@@ -20,11 +20,11 @@ export default function AdminLogin() {
 
     try {
       await login(email, password);
-      toast.success('Welcome back, Admin');
+      toast.success('Welcome back, Admin.');
       navigate('/admin');
     } catch (err) {
       setError('Invalid credentials. Please try again.');
-      toast.error('Login failed');
+      toast.error('Login failed.');
     } finally {
       setLoading(false);
     }
