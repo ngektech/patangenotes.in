@@ -37,7 +37,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/5] bg-[#0A0A0A] border border-[#262626] overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/5653485/pexels-photo-5653485.jpeg"
+                  src="https://customer-assets.emergentagent.com/job_patange-insights/artifacts/tm91wc9k_Screenshot%202026-01-21%20at%209.35.48%E2%80%AFPM.png"
                   alt="Aditya Patange"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
