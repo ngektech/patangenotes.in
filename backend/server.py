@@ -200,7 +200,8 @@ def create_post(post: BlogPostCreate, email: str = Depends(verify_token)):
     }
     result = db.posts.insert_one(post_data)
     post_data["id"] = str(result.inserted_id)
-    del post_data["_id"] if "_id" in post_data else None
+    if "_id" in post_data:
+        del post_data["_id"]
     return post_data
 
 @app.put("/api/admin/posts/{post_id}")
