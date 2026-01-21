@@ -69,8 +69,8 @@ export default function BlogPostPage() {
       <div className="min-h-screen bg-background" data-testid="blog-post-error">
         <Navbar />
         <div className="pt-32 pb-20 text-center">
-          <h1 className="font-heading text-4xl text-white mb-4">Post Not Found</h1>
-          <p className="text-gray-400 mb-8">The insight you're looking for doesn't exist.</p>
+          <h1 className="font-heading text-4xl text-white mb-4">Post Not Found.</h1>
+          <p className="text-gray-400 mb-8">The insight you are looking for does not exist.</p>
           <Link
             to="/blog"
             className="bg-white text-black font-mono uppercase tracking-wider text-sm px-6 py-3 rounded-sm hover:bg-gray-200 transition-colors duration-300"

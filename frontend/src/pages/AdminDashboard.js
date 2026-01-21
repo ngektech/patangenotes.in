@@ -332,7 +332,7 @@ export default function AdminDashboard() {
         ) : (
           <div className="bg-[#0A0A0A] border border-[#262626] p-12 text-center">
             <FileText className="w-12 h-12 text-gray-600 mx-auto mb-4" />
-            <h3 className="text-white text-lg mb-2">No posts yet</h3>
+            <h3 className="text-white text-lg mb-2">No posts yet.</h3>
             <p className="text-gray-500 mb-6">Create your first insight to get started.</p>
             <button
               onClick={() => openEditor()}

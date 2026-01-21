@@ -239,7 +239,7 @@ export default function BlogListPage() {
             >
               <Search className="w-16 h-16 text-gray-600 mx-auto mb-6" />
               <h3 className="font-heading text-2xl text-white mb-4">
-                No insights found
+                No insights found.
               </h3>
               <p className="text-gray-500 mb-8">
                 {hasActiveFilters 

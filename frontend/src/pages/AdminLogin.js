@@ -116,7 +116,7 @@ export default function AdminLogin() {
 
         {/* Security Notice */}
         <p className="text-center text-gray-600 text-xs font-mono mt-6">
-          Protected by enterprise-grade security
+          Protected by enterprise-grade security.
         </p>
       </motion.div>
     </div>
