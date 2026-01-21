@@ -5,12 +5,12 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 
 const expertise = [
-  { icon: Shield, title: 'Security Engineering', description: 'Expert in cybersecurity, threat analysis, and infrastructure protection' },
-  { icon: Database, title: 'Data Analytics', description: 'Transforming complex data into actionable insights' },
-  { icon: Heart, title: 'Healthcare', description: 'UN Healthcare Associate working on global health initiatives' },
-  { icon: Globe, title: 'Geopolitics', description: 'Understanding global power dynamics and policy implications' },
-  { icon: Code, title: 'Engineering', description: 'Full-stack development and system architecture' },
-  { icon: TrendingUp, title: 'Business Strategy', description: 'Multi-dimensional entrepreneurship and growth' }
+  { icon: Shield, title: 'Security Engineering', description: 'Expert in cybersecurity, threat analysis, and infrastructure protection.' },
+  { icon: Database, title: 'Data Analytics', description: 'Transforming complex data into actionable insights.' },
+  { icon: Heart, title: 'Healthcare', description: 'UN Healthcare Associate working on global health initiatives.' },
+  { icon: Globe, title: 'Geopolitics', description: 'Understanding global power dynamics and policy implications.' },
+  { icon: Code, title: 'Engineering', description: 'Full-stack development and system architecture.' },
+  { icon: TrendingUp, title: 'Business Strategy', description: 'Multi-dimensional entrepreneurship and growth.' }
 ];
 
 const socialLinks = [
@@ -177,7 +177,7 @@ export default function AboutPage() {
               <div className="flex items-center gap-4 p-4 bg-[#0A0A0A] border border-[#262626]">
                 <Award className="w-8 h-8 text-gray-500" strokeWidth={1.5} />
                 <p className="text-gray-400 text-sm">
-                  Built for Microsoft showcase - demonstrating enterprise-grade web engineering
+                  Built for Microsoft showcase - demonstrating enterprise-grade web engineering.
                 </p>
               </div>
             </motion.div>
@@ -206,19 +206,19 @@ export default function AboutPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3 text-gray-400">
                     <span className="w-1.5 h-1.5 bg-white rounded-full mt-2" />
-                    Plain English writing with full source attribution
+                    Plain English writing with full source attribution.
                   </li>
                   <li className="flex items-start gap-3 text-gray-400">
                     <span className="w-1.5 h-1.5 bg-white rounded-full mt-2" />
-                    Evidence-based analysis and critical thinking
+                    Evidence-based analysis and critical thinking.
                   </li>
                   <li className="flex items-start gap-3 text-gray-400">
                     <span className="w-1.5 h-1.5 bg-white rounded-full mt-2" />
-                    Open knowledge for public welfare
+                    Open knowledge for public welfare.
                   </li>
                   <li className="flex items-start gap-3 text-gray-400">
                     <span className="w-1.5 h-1.5 bg-white rounded-full mt-2" />
-                    Enterprise-grade security and privacy
+                    Enterprise-grade security and privacy.
                   </li>
                 </ul>
               </div>
@@ -246,7 +246,7 @@ export default function AboutPage() {
             <div className="inline-flex items-center gap-4 p-6 bg-[#0A0A0A] border border-[#262626]">
               <Globe className="w-8 h-8 text-gray-500" strokeWidth={1.5} />
               <p className="text-gray-400 font-mono text-sm">
-                Open. Transparent. For Everyone.
+                Open. Transparent. For everyone.
               </p>
             </div>
           </motion.div>

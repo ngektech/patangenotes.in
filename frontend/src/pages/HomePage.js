@@ -10,12 +10,12 @@ import { BlogCard } from '../components/BlogCard';
 const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 const categories = [
-  { name: 'Artificial Intelligence', icon: Cpu, description: 'Exploring the frontier of machine intelligence' },
-  { name: 'Geopolitics', icon: Globe, description: 'Understanding global power dynamics' },
-  { name: 'Security', icon: Shield, description: 'Cybersecurity and infrastructure protection' },
-  { name: 'Healthcare', icon: Heart, description: 'Innovation in public health' },
-  { name: 'Public Policy', icon: BookOpen, description: 'Shaping equitable outcomes' },
-  { name: 'Technology', icon: TrendingUp, description: 'Emerging tech and data analytics' }
+  { name: 'Artificial Intelligence', icon: Cpu, description: 'Exploring the frontier of machine intelligence.' },
+  { name: 'Geopolitics', icon: Globe, description: 'Understanding global power dynamics.' },
+  { name: 'Security', icon: Shield, description: 'Cybersecurity and infrastructure protection.' },
+  { name: 'Healthcare', icon: Heart, description: 'Innovation in public health.' },
+  { name: 'Public Policy', icon: BookOpen, description: 'Shaping equitable outcomes.' },
+  { name: 'Technology', icon: TrendingUp, description: 'Emerging tech and data analytics.' }
 ];
 
 export default function HomePage() {
@@ -233,7 +233,7 @@ export default function HomePage() {
         <section className="py-24 border-t border-white/5">
           <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
             <BookOpen className="w-16 h-16 text-gray-600 mx-auto mb-6" />
-            <h3 className="font-heading text-2xl text-white mb-4">No insights yet</h3>
+            <h3 className="font-heading text-2xl text-white mb-4">No insights yet.</h3>
             <p className="text-gray-500 mb-8">Check back soon for thought-provoking content on technology, policy, and innovation.</p>
           </div>
         </section>
